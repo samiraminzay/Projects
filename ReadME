@@ -1,0 +1,41 @@
+
+## Installation
+No Packages required.
+
+## Usage
+Python 3.10.7
+
+## Detail
+This program computes the RSA & Elgamal Encryption Scheme. This is heavily based off homework 9. This program will ask the user which encryption scheme they wish to use. However, if the typed encryption scheme isnt on there it will return a message that says " try again".
+
+## How to use
+1) Start by typing in the desired type of  encryption scheme
+(you can type e for elgamal or r for rsa)
+
+2) Type in all the nessecary inputs for the function to run
+(presets are also given also just hit enter)
+
+3) wait for your desired results
+
+# Current presets
+The current presets for RSA are:
+P = 17
+Q = 47
+E = 11
+M = 6
+
+The current presets for Elgamal are:
+P = 17
+A = 7
+D = 6
+Ke = 7
+M = 6
+
+# Def gcd
+finds the greatest common factor
+
+# Def inv
+Computes the inverse
+
+# Capabilities
+Since this is a multivariable program it is geared torwards the following presets. However anything over three digits or negative it fails to run accuratly.
