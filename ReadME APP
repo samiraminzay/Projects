@@ -1,0 +1,38 @@
+Job Application Tracker
+The Job Application Tracker is a simple desktop application built using Python and Tkinter. It helps you keep track of the number of job applications sent and rejected, along with the time elapsed since you started tracking.
+
+Features
+Track the number of job applications sent and rejected.
+Display the total time elapsed since starting the application.
+Pause and resume the timer when needed.
+Save the application data to an Excel spreadsheet for future reference.
+Requirements
+Python 3.x
+Tkinter (usually included with Python)
+How to Run
+Clone this repository to your local machine or download the ZIP file and extract it.
+Open a terminal or command prompt and navigate to the project directory.
+Run the following command to start the application:
+bash
+Copy code
+python job_application_tracker.py
+The Job Application Tracker window will open, allowing you to start tracking your job applications.
+Usage
+Applications Sent: Click the "+" button to increment the number of job applications you have sent. Click the "-" button to decrement it if needed.
+
+Applications Rejected: Click the "+" button to increment the number of job applications rejected. Click the "-" button to decrement it if needed.
+
+Time Elapsed: The timer starts automatically when you launch the application. It displays the total time elapsed since you started tracking your applications.
+
+Pause/Resume: Click the "Pause" button to pause the timer if needed. Click it again to resume tracking time.
+
+Save and Exit: To save your application data to an Excel spreadsheet, click the "Save and Exit" button. It will create or update the Excel file with the current date and time.
+
+Data Persistence
+The application data is saved to an Excel (.xlsx) spreadsheet with the following format:
+
+Applications Sent	Applications Rejected	Time Taken
+10	5	00:15:30
+8	2	00:10:45
+...	...	...
+Each row represents a different date, and the time taken is displayed in the format HH:MM:SS.
